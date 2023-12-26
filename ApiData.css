@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 30px;
+  }
+  
+  .ifsc_input {
+    margin-right: 5px;
+    padding: 5px;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+  }
+  
+  /* // get method */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 800px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* border: 50px solid rgba(255, 5, 55, 0.1); */
+    margin: 50px auto;
+  }
+  
+  .container h1 {
+    color: white;
+  }
+  
+  .container .bank_details {
+    list-style: none;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .container .bank_details span {
+    color: green;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+  
+  .container .bank_details li {
+    color: black;
+    font-weight: bold;
+  
+    text-transform: uppercase;
+  }
